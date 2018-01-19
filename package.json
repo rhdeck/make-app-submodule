@@ -1,0 +1,26 @@
+{
+  "name": "make-app-submodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/make-app-submodule.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/make-app-submodule/issues"
+  },
+  "homepage": "https://github.com/rhdeck/make-app-submodule#readme",
+  "dependencies": {
+    "make-app-git": "^1.0.0",
+    "manage-submodules": "^1.1.0",
+    "yarnif": "^1.2.0"
+  },
+  "bin": "cli.js",
+  "makeApp": { "runEarly": "npm run make-app-submodule" }
+}
