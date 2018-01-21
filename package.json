@@ -23,6 +23,6 @@
   },
   "bin": "cli.js",
   "makeApp": {
-    "runEarly": "npm run make-app-submodule"
+    "runEarly": "make-app-submodule"
   }
 }
