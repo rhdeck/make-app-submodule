@@ -22,5 +22,7 @@
     "yarnif": "^1.2.0"
   },
   "bin": "cli.js",
-  "makeApp": { "runEarly": "npm run make-app-submodule" }
+  "makeApp": {
+    "runEarly": "npm run make-app-submodule"
+  }
 }
